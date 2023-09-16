@@ -128,7 +128,7 @@ public class Main extends JPanel
     main.po.readObject("casita3D.txt");
     main.po.setCanvas(main);
     // En true para que el objeto rote y se escale en torno a sí mismo
-    math.TranslScalRot4x4.CENTER_TRANSFORMS = true;
+    //math.TranslScalRot4x4.CENTER_TRANSFORMS = true;
     // Agregar el JPanel al frame
     frame.add(main);
     // Asignarle tamaño
